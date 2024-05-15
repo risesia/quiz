@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>About Us | QUIZA</title>
+  <style>
+    :root {
+      --primary_color: #6eeb83;
+      --secondary_color: #04e762;
+      --third_color: white;
+    }
+
+    body {
+      background-color: var(--primary_color);
+    }
+
+    .btn {
+      background-color: var(--primary_color);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .btn-back {
+      background-color: var(--third_color);
+      color: var(--primary_color);
+    }
+
+    .btn:hover {
+      background-color: var(--third_color);
+      color: var(--primary_color);
+      border-color: var(--primary_color);
+    }
+    .row {
+      margin-top: 50px;
+    }
+    .btn-ig {
+      background-color: var(--ig_color);
+    }
+
+    .card {
+      border-radius: 20px;
+      transition: 0.5s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .gambar-profil {
+      height: 80%;
+      width: 80%;
+      align-self: center;
+      justify-self: center;
+      border-radius: 20px;
+      margin-top: 30px;
+      transition: 0.5s;
+    }
+
+@media (max-width: 765px) {
+    .card{
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media (min-width: 767px) and (max-width: 990px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;" >
+          <img class="gambar-profil" src="assets/fikri.jpg" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Fikri Fahreza</h5>
+            <p class="card-text">
+              NIM  :5213351013 <br>
+              prodi: PTIK B <br>
+              Role : Front-end Dev <br>
+              .
+            </p>
+            <a href="https://www.instagram.com/fikriifahrezaa/" class="btn btn-primary"><i
+                class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img class="gambar-profil" src="assets/nurul.jpg" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Nurul Izzati</h5>
+            <p class="card-text">
+              NIM  :5213351013 <br>
+              prodi: PTIK B <br>
+              Role : Instructional Designer <br>
+                     & Pemateri
+            </p>
+            <a href="https://www.instagram.com/izzatii_mphii/" class="btn btn-primary"><i
+                class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img class="gambar-profil" src="assets/nadia.jpg" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Nadia Shauna</h5>
+            <p class="card-text">
+              NIM  :5213151031 <br>
+              prodi: PTIK <br>
+              Role : Instructional Designer <br>
+                     & Pemateri
+            </p>
+            <a href="https://www.instagram.com/nadiashauna_/" class="btn btn-primary"><i
+                class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img class="gambar-profil" src="assets/ibnu.jpg" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Ibnu Asqallani</h5>
+            <p class="card-text">
+              NIM  :5213151020 <br>
+              prodi: PTIK B <br>
+              Role : Back-end Dev <br>
+              .
+            </p>
+            <a href="https://www.instagram.com/asqallani_/" class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="button-container">
+    <a type="button" class="btn btn-back" onclick="backBtn()"><b>Kembali</b></a>
+  </div>
+
+  <!-- audio -->
+<audio autoplay loop>
+      <source src="assets/bcksnd.mp3" type="audio/mp3">
+  </audio>
+  <!-- audio end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script>
+        function backBtn(){
+            history.back();
+        }
+    </script>
+</body>
+
+</html>

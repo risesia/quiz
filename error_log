@@ -1,0 +1,508 @@
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $xw in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 106
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 109
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 110
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 111
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 112
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $hasil2 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 114
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 114
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 114
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $hasil2 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 115
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 115
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 115
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $hasil2 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 116
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 116
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 116
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Undefined variable $hasil2 in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 117
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 117
+[26-Nov-2023 20:01:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil-guru.php on line 117
+[26-Nov-2023 20:02:36 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[26-Nov-2023 20:04:58 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[26-Nov-2023 20:05:20 UTC] PHP Warning:  Undefined array key "submit" in /home/asqalla1/quiza.asqallanix.my.id/quiz-guru.php on line 149
+[26-Nov-2023 20:45:35 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 108
+[26-Nov-2023 20:45:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/home.php:109
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/home.php(109): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 109
+[26-Nov-2023 20:45:38 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 37
+[26-Nov-2023 20:45:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/profil.php:38
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/profil.php(38): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 38
+[26-Nov-2023 20:45:39 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 108
+[26-Nov-2023 20:45:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/home.php:109
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/home.php(109): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 109
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:32:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 01:34:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:36:15 UTC] PHP Warning:  Undefined array key "kls" in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 25
+[27-Nov-2023 03:37:06 UTC] PHP Warning:  Undefined array key "kls" in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 25
+[27-Nov-2023 03:38:07 UTC] PHP Warning:  Undefined array key "kls" in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 25
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:40 UTC] PHP Warning:  Undefined array key "kls" in /home/asqalla1/quiza.asqallanix.my.id/change_profil.php on line 39
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:38:50 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[27-Nov-2023 03:38:51 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:39:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:39:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:40:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:40:51 UTC] PHP Warning:  Undefined array key "submit" in /home/asqalla1/quiza.asqallanix.my.id/quiz-guru.php on line 149
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:41:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:44:12 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[27-Nov-2023 03:44:44 UTC] PHP Warning:  Undefined array key "kls" in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 25
+[27-Nov-2023 03:46:18 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[27-Nov-2023 03:50:11 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:50:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:50:11 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:50:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:52:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:57:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 03:58:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 61
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 159
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 04:00:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 53
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 53
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 62
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 04:02:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 160
+[27-Nov-2023 04:05:14 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:14 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 04:05:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 04:05:16 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:16 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 04:05:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 04:05:59 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[27-Nov-2023 04:05:59 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 04:05:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[27-Nov-2023 06:06:57 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 37
+[27-Nov-2023 06:06:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/profil.php:38
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/profil.php(38): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 38
+[27-Nov-2023 06:09:47 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[27-Nov-2023 11:38:19 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/change_profil.php on line 92
+[27-Nov-2023 11:38:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/change_profil.php:93
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/change_profil.php(93): mysqli_fetch_array(false, 1)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/change_profil.php on line 93
+[27-Nov-2023 15:16:22 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/quizz.php on line 39
+[27-Nov-2023 15:44:16 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[28-Nov-2023 00:20:56 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/quizz.php on line 39
+[28-Nov-2023 04:14:47 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/quizz.php on line 39
+[29-Nov-2023 06:59:39 UTC] PHP Warning:  Undefined array key "user" in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 108
+[29-Nov-2023 06:59:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/asqalla1/quiza.asqallanix.my.id/home.php:109
+Stack trace:
+#0 /home/asqalla1/quiza.asqallanix.my.id/home.php(109): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 109
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:00:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:00:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:21 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:01:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 57
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 58
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 59
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Nov-2023 07:02:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[01-Dec-2023 09:26:34 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[03-Dec-2023 13:56:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 52
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined variable $x1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 149
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined variable $x2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 150
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined variable $x3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 151
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined variable $x4 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 152
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined array key 0 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 154
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined array key 1 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 155
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined array key 2 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 156
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Undefined array key 3 in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[03-Dec-2023 13:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/asqalla1/quiza.asqallanix.my.id/profil.php on line 157
+[29-Feb-2024 02:35:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 2
+[29-Feb-2024 02:35:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/registration.php on line 2
+[29-Feb-2024 02:36:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/index.php on line 35
+[29-Feb-2024 02:36:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 2
+[29-Feb-2024 02:36:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/quizz.php on line 2
+[29-Feb-2024 02:37:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 2
+[29-Feb-2024 02:37:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/quizz.php on line 2
+[29-Feb-2024 02:39:01 UTC] PHP Warning:  Undefined variable $times in /home/asqalla1/quiza.asqallanix.my.id/sendscore.php on line 16
+[29-Feb-2024 02:39:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/asqalla1/quiza.asqallanix.my.id/home.php on line 2
