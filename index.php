@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 if (isset($_SESSION['user'])) {
      header("Location: home.php");
      die();

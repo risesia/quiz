@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        #answer-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .answer {
+            padding: 10px;
+            margin: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        #drop-area {
+            border: 2px dashed black;
+            min-height: 100px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .drop-target {
+            padding: 10px;
+            border: 1px solid black;
+            min-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="question"></h1>
+    <div id="answer-container"></div>
+    <div id="drop-area">
+        <div class="drop-target"></div>
+        <div class="drop-target"></div>
+        <div class="drop-target"></div>
+        <div class="drop-target"></div>
+    </div>
+    <button onclick="submitQuiz()">Submit</button>
+
+    <script>
+        async function loadQuiz() {
+            const response = await fetch('fetch_order_quiz.php');
+            const data = await response.json();
+            document.getElementById('question').innerText = data.question;
+            const answerContainer = document.getElementById('answer-container');
+            data.answers.forEach(answer => {
+                const answerDiv = document.createElement('div');
+                answerDiv.classList.add('answer');
+                answerDiv.innerText = answer.answer_text;
+                answerDiv.draggable = true;
+                answerDiv.ondragstart = drag;
+                answerContainer.appendChild(answerDiv);
+            });
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.innerText);
+        }
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            const data = event.dataTransfer.getData("text");
+            event.target.innerText = data;
+        }
+
+        async function submitQuiz() {
+        const dropTargets = document.querySelectorAll('.drop-target');
+        const userOrder = Array.from(dropTargets).map(target => target.innerText);
+
+        const response = await fetch('check_order_quiz.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ userOrder }),
+        });
+        const result = await response.json();
+        if (result.correct) {
+            alert("Correct order!");
+        } else {
+            alert("Incorrect order. Try again.");
+        }
+        }
+
+        document.querySelectorAll('.drop-target').forEach(target => {
+            target.ondrop = drop;
+            target.ondragover = allowDrop;
+        });
+
+        loadQuiz();
+    </script>
+</body>
+</html>

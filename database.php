@@ -1,5 +1,5 @@
 <?php
-$url='http://localhost/equiza/S0FU;8RRH}G&';
+// $url='http://localhost/equiza/S0FU;8RRH}G&';
 $hostName = "localhost";
 $dbUser = "root";
 $dbPassword = "";
