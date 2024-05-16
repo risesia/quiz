@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Quiz Isian</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Web Quiz Isian</h1>
+        <div id="startContainer">
+            <button id="startButton" onclick="startQuiz()">Mulai Kuis</button>
+        </div>
+        <div id="rulesContainer" style="display: none;">
+            <p>Aturan Kuis:</p>
+            <ul>
+                <li>Setiap soal memiliki waktu 30 detik untuk dijawab.</li>
+                <li>Tekan tombol "Enter" atau "Next" untuk melanjutkan ke soal berikutnya.</li>
+                <li>Jumlah soal yang benar akan dihitung pada akhir kuis.</li>
+            </ul>
+            <p>Waktu tersisa: <span id="rulesTime">15</span> detik</p>
+            <button id="agreeButton" onclick="showQuiz()">Setuju</button>
+        </div>
+        <div id="quizContainer" style="display: none;">
+            <div id="questionContainer">
+                <p id="question"></p>
+                <input type="text" id="answer" onkeydown="checkEnter(event)" required>
+            </div>
+            <div id="navigation">
+                <button id="nextButton" onclick="nextQuestion()">Next</button>
+            </div>
+        </div>
+
+        <div id="timer" style="display: none;">
+            <div id="timerBar"></div>
+            <div>Time Left: <span id="time">30</span> seconds</div>
+        </div>        
+        
+        <div id="result"></div>
+        <div id="backButtonContainer" style="display: none;">
+            <button id="backButton" onclick="restartQuiz()">Kembali</button>
+        </div>
+    </div>
+    <script src="question.js"></script>
+    <script >
+        let currentQuestionIndex = 0;
+let score = 0;
+let timer;
+let timeLeft = 30;
+let rulesTimer;
+let rulesTimeLeft = 15;
+
+function startQuiz() {
+    document.getElementById('startContainer').style.display = 'none';
+    document.getElementById('rulesContainer').style.display = 'block';
+    startRulesTimer();
+}
+
+function startRulesTimer() {
+    rulesTimer = setInterval(() => {
+        rulesTimeLeft--;
+        document.getElementById('rulesTime').innerText = rulesTimeLeft;
+        if (rulesTimeLeft === 0) {
+            clearInterval(rulesTimer);
+            showQuiz();
+        }
+    }, 1000);
+}
+
+function showQuiz() {
+    clearInterval(rulesTimer);  // Clear the timer if the user clicks "Setuju"
+    document.getElementById('rulesContainer').style.display = 'none';
+    document.getElementById('quizContainer').style.display = 'block';
+    document.getElementById('timer').style.display = 'block';
+    displayQuestion();
+    startTimer();
+}
+
+function displayQuestion() {
+    clearInterval(timer);
+    timeLeft = 30;
+    startTimer();
+
+    const questionElement = document.getElementById('question');
+    const answerElement = document.getElementById('answer');
+    const currentQuestion = questions[currentQuestionIndex];
+
+    questionElement.innerText = currentQuestion.question;
+    answerElement.value = '';
+}
+
+
+
+function checkAnswer() {
+    const answerElement = document.getElementById('answer');
+    const currentQuestion = questions[currentQuestionIndex];
+    if (answerElement.value.toLowerCase() === currentQuestion.correctAnswer.toLowerCase()) {
+        score++;
+    }
+}
+
+// function startTimer() {
+//     timer = setInterval(() => {
+//         timeLeft--;
+//         document.getElementById('time').innerText = timeLeft;
+//         if (timeLeft === 0) {
+//             clearInterval(timer);
+//             nextQuestion();
+//         }
+//     }, 1000);
+// }
+
+// function nextQuestion() {
+//     checkAnswer();
+//     currentQuestionIndex++;
+//     if (currentQuestionIndex < questions.length) {
+//         displayQuestion();
+//     } else {
+//         endQuiz();
+//     }
+// }
+
+
+
+function nextQuestion() {
+    clearInterval(timer); // Hentikan timer sebelumnya
+    checkAnswer();
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        displayQuestion();
+        startTimer(); // Mulai ulang timer untuk soal berikutnya
+    } else {
+        endQuiz();
+    }
+}
+
+function startTimer() {
+    clearInterval(timer); // Hentikan timer sebelumnya
+    const startTime = Date.now();
+    timer = setInterval(() => {
+        const elapsedTime = Date.now() - startTime;
+        timeLeft = Math.max(30 - Math.floor(elapsedTime / 1000), 0);
+        document.getElementById('time').innerText = timeLeft;
+        document.getElementById('timerBar').style.width = (timeLeft / 30) * 100 + '%';
+        if (timeLeft === 0) {
+            clearInterval(timer);
+            nextQuestion();
+        }
+    }, 1000);
+}
+
+function displayQuestion() {
+    const questionElement = document.getElementById('question');
+    const answerElement = document.getElementById('answer');
+    const currentQuestion = questions[currentQuestionIndex];
+
+    questionElement.innerText = currentQuestion.question;
+    answerElement.value = '';
+    startTimer(); // Mulai timer setiap kali tampil pertanyaan baru
+}
+
+
+function endQuiz() {
+    clearInterval(timer);
+    document.getElementById('quizContainer').style.display = 'none';
+    document.getElementById('timer').style.display = 'none';
+
+    // Calculate the score as a percentage of the total number of questions
+    const totalQuestions = questions.length;
+    const percentageScore = (score / totalQuestions) * 100;
+
+    document.getElementById('result').innerText = `Anda berhasil menjawab ${score} dari ${totalQuestions} pertanyaan.\nSkor Anda: ${percentageScore.toFixed(2)}`;
+    document.getElementById('backButtonContainer').style.display = 'block';
+}
+
+function restartQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('quizContainer').style.display = 'block';
+    document.getElementById('timer').style.display = 'block';
+    document.getElementById('backButtonContainer').style.display = 'none';
+    document.getElementById('result').innerText = '';
+    displayQuestion();
+    startTimer();
+}
+
+function checkEnter(event) {
+    if (event.key === 'Enter') {
+        nextQuestion();
+    }
+}
+
+    </script>
+</body>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #80ed99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#questionContainer {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#question {
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #80ed99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #80ed99;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#timer {
+    margin-top: 10px;
+}
+
+#timer {
+    display: none;
+}
+
+#timerBar {
+    height: 10px;
+    background-color: #80ed99;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#timer span {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#nextButton{
+    font-weight: bold;
+}
+#backButton{
+    font-weight: bold;
+}
+</style>
+</html>
