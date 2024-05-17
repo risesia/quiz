@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <style>
-        #answer-container {
+        .question-container {
+            margin-bottom: 30px;
+        }
+        .answer-container {
             display: flex;
             justify-content: space-around;
             margin: 20px;
@@ -17,7 +20,7 @@
             border: 1px solid black;
             cursor: pointer;
         }
-        #drop-area {
+        .drop-area {
             border: 2px dashed black;
             min-height: 100px;
             display: flex;
@@ -31,29 +34,52 @@
     </style>
 </head>
 <body>
-    <h1 id="question"></h1>
-    <div id="answer-container"></div>
-    <div id="drop-area">
-        <div class="drop-target"></div>
-        <div class="drop-target"></div>
-        <div class="drop-target"></div>
-        <div class="drop-target"></div>
-    </div>
+    <h1>Quiz</h1>
+    <div id="quiz-container"></div>
     <button onclick="submitQuiz()">Submit</button>
 
     <script>
         async function loadQuiz() {
-            const response = await fetch('fetch_order_quiz.php');
+            const response = await fetch('order_quiz_fetch.php');
             const data = await response.json();
-            document.getElementById('question').innerText = data.question;
-            const answerContainer = document.getElementById('answer-container');
-            data.answers.forEach(answer => {
-                const answerDiv = document.createElement('div');
-                answerDiv.classList.add('answer');
-                answerDiv.innerText = answer.answer_text;
-                answerDiv.draggable = true;
-                answerDiv.ondragstart = drag;
-                answerContainer.appendChild(answerDiv);
+            const quizContainer = document.getElementById('quiz-container');
+
+            data.forEach((quiz, index) => {
+                const questionContainer = document.createElement('div');
+                questionContainer.classList.add('question-container');
+                questionContainer.id = `question-container-${index}`;
+
+                const questionTitle = document.createElement('h2');
+                questionTitle.innerText = quiz.question;
+                questionContainer.appendChild(questionTitle);
+
+                const answerContainer = document.createElement('div');
+                answerContainer.classList.add('answer-container');
+
+                quiz.answers.forEach(answer => {
+                    const answerDiv = document.createElement('div');
+                    answerDiv.classList.add('answer');
+                    answerDiv.innerText = answer.answer_text;
+                    answerDiv.draggable = true;
+                    answerDiv.ondragstart = drag;
+                    answerContainer.appendChild(answerDiv);
+                });
+
+                questionContainer.appendChild(answerContainer);
+
+                const dropArea = document.createElement('div');
+                dropArea.classList.add('drop-area');
+
+                for (let i = 0; i < quiz.answers.length; i++) {
+                    const dropTarget = document.createElement('div');
+                    dropTarget.classList.add('drop-target');
+                    dropTarget.ondrop = drop;
+                    dropTarget.ondragover = allowDrop;
+                    dropArea.appendChild(dropTarget);
+                }
+
+                questionContainer.appendChild(dropArea);
+                quizContainer.appendChild(questionContainer);
             });
         }
 
@@ -72,28 +98,32 @@
         }
 
         async function submitQuiz() {
-        const dropTargets = document.querySelectorAll('.drop-target');
-        const userOrder = Array.from(dropTargets).map(target => target.innerText);
+            const questionContainers = document.querySelectorAll('.question-container');
+            const userOrders = [];
 
-        const response = await fetch('check_order_quiz.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ userOrder }),
-        });
-        const result = await response.json();
-        if (result.correct) {
-            alert("Correct order!");
-        } else {
-            alert("Incorrect order. Try again.");
-        }
-        }
+            questionContainers.forEach((container, index) => {
+                const dropTargets = container.querySelectorAll('.drop-target');
+                const userOrder = Array.from(dropTargets).map(target => target.innerText);
+                userOrders.push({ questionId: index + 1, userOrder });
+            });
 
-        document.querySelectorAll('.drop-target').forEach(target => {
-            target.ondrop = drop;
-            target.ondragover = allowDrop;
-        });
+            const response = await fetch('order_quiz_check.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ userOrders }),
+            });
+
+            const result = await response.json();
+            result.forEach((res, index) => {
+                if (res.correct) {
+                    alert(`Question ${index + 1}: Correct order!`);
+                } else {
+                    alert(`Question ${index + 1}: Incorrect order. Try again.`);
+                }
+            });
+        }
 
         loadQuiz();
     </script>
